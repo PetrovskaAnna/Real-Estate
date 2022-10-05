@@ -141,13 +141,18 @@
 
 .content-main-block__form {}
 
-.form-main-block {}
+.form-main-block {
+  background-color: #fff;
+}
 
 .form-main-block__input {}
 
 .form-main-block__button {}
 
-.body-main-block__slider {}
+.body-main-block__slider {
+  flex: 0 1 50%;
+  min-width: 0;
+}
 
 .main-block__partners {}
 
