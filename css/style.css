@@ -138,16 +138,22 @@
   margin-bottom: 45px;
 
 }
-
 .content-main-block__form {}
-
 .form-main-block {
-  background-color: #fff;
+  display: flex;
+  height: 86px;
+  border: 1px solid #DADADA;
+  background: #fff url('../img/icons/home.svg') 33px 50% no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.form-main-block__input {
+  padding: 0 0 0 74px;
+  background-color: transparent;
 }
 
-.form-main-block__input {}
-
-.form-main-block__button {}
+.form-main-block__button {
+  cursor: pointer;
+}
 
 .body-main-block__slider {
   flex: 0 1 50%;
